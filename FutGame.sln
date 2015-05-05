@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutGame.MVC", "FutGame.MVC\FutGame.MVC.csproj", "{8FC800F6-6190-48BD-B28A-DB68FB80BE7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutGame.Data", "FutGame.Data\FutGame.Data.csproj", "{28AEA219-3600-41B8-B82C-B4296B00D15C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutGame.Model", "FutGame.Model\FutGame.Model.csproj", "{69219958-2737-40F4-89B5-8CE1B60F4C61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FC800F6-6190-48BD-B28A-DB68FB80BE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC800F6-6190-48BD-B28A-DB68FB80BE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC800F6-6190-48BD-B28A-DB68FB80BE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC800F6-6190-48BD-B28A-DB68FB80BE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28AEA219-3600-41B8-B82C-B4296B00D15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28AEA219-3600-41B8-B82C-B4296B00D15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28AEA219-3600-41B8-B82C-B4296B00D15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28AEA219-3600-41B8-B82C-B4296B00D15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69219958-2737-40F4-89B5-8CE1B60F4C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69219958-2737-40F4-89B5-8CE1B60F4C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69219958-2737-40F4-89B5-8CE1B60F4C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69219958-2737-40F4-89B5-8CE1B60F4C61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
