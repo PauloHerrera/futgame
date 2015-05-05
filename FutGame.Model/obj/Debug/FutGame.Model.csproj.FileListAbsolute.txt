@@ -1,0 +1,4 @@
+C:\Projetos Paulo\FutGame\FutGame.Model\bin\Debug\FutGame.Model.dll
+C:\Projetos Paulo\FutGame\FutGame.Model\bin\Debug\FutGame.Model.pdb
+C:\Projetos Paulo\FutGame\FutGame.Model\obj\Debug\FutGame.Model.dll
+C:\Projetos Paulo\FutGame\FutGame.Model\obj\Debug\FutGame.Model.pdb

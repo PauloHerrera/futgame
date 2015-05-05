@@ -1,0 +1,14 @@
+C:\Projetos Paulo\FutGame\FutGame.Data\bin\Debug\FutGame.Data.dll.config
+C:\Projetos Paulo\FutGame\FutGame.Data\bin\Debug\FutGame.Data.dll
+C:\Projetos Paulo\FutGame\FutGame.Data\bin\Debug\FutGame.Data.pdb
+C:\Projetos Paulo\FutGame\FutGame.Data\bin\Debug\EntityFramework.dll
+C:\Projetos Paulo\FutGame\FutGame.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos Paulo\FutGame\FutGame.Data\bin\Debug\FutGame.Model.dll
+C:\Projetos Paulo\FutGame\FutGame.Data\bin\Debug\FutGame.Model.pdb
+C:\Projetos Paulo\FutGame\FutGame.Data\bin\Debug\EntityFramework.xml
+C:\Projetos Paulo\FutGame\FutGame.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos Paulo\FutGame\FutGame.Data\obj\Debug\FutGame.Data.csprojResolveAssemblyReference.cache
+C:\Projetos Paulo\FutGame\FutGame.Data\obj\Debug\FutGame.Data.Migrations.AddTeamAndPlayers.resources
+C:\Projetos Paulo\FutGame\FutGame.Data\obj\Debug\FutGame.Data.csproj.GenerateResource.Cache
+C:\Projetos Paulo\FutGame\FutGame.Data\obj\Debug\FutGame.Data.dll
+C:\Projetos Paulo\FutGame\FutGame.Data\obj\Debug\FutGame.Data.pdb
