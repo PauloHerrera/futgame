@@ -41,6 +41,8 @@
   <ItemGroup>
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries\IGenericRepository.cs" />
+    <Compile Include="Queries\ITeamRepository.cs" />
     <Compile Include="Team.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
