@@ -147,10 +147,17 @@
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\NinjectDependencyResolver.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\MaganerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Security\Cryptography.cs" />
+    <Compile Include="Helpers\Security\CurrentUser.cs" />
+    <Compile Include="Helpers\Security\CustomAuthorizeAttribute.cs" />
+    <Compile Include="Models\UserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -193,10 +200,11 @@
     <Content Include="Public\Vendor\Bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Public\Vendor\Bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Public\Vendor\Bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Views\Error\Index.cshtml" />
+    <Content Include="Views\Maganer\Index.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Public\Scripts\" />
   </ItemGroup>
   <ItemGroup>

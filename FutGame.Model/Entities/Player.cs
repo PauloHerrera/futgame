@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FutGame.Model
+namespace FutGame.Model.Entities
 {
     public class Player
     {

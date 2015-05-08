@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Web.Mvc;
+using FutGame.MVC.Helpers.Security;
 using FutGame.Model;
 using FutGame.Model.Entities;
 using FutGame.Model.Queries;
@@ -8,12 +9,13 @@ using System.Linq;
 
 namespace FutGame.MVC.Controllers
 {
-    public class HomeController : Controller
+    [CustomAuthorize]
+    public class MaganerController : Controller
     {
         private IGenericRepository<Team> _repository;
 
         [Inject]
-        public HomeController(IGenericRepository<Team> repository)
+        public MaganerController(IGenericRepository<Team> repository)
         {
             _repository = repository;
         }

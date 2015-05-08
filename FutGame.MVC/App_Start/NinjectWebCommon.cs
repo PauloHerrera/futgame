@@ -2,7 +2,7 @@
 using System.Web;
 using System.Web.Mvc;
 using FutGame.Data.Queries;
-using FutGame.Model;
+using FutGame.Model.Entities;
 using FutGame.Model.Queries;
 using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 using Ninject;
@@ -52,6 +52,7 @@ namespace FutGame.MVC.App_Start
         private static void RegisterServices(IKernel kernel)
         {
             kernel.Bind<IGenericRepository<Team>>().To<GenericRepository<Team>>();
+            kernel.Bind<IUserRepository>().To<UserRepository>();
 
             DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel)); 
         }

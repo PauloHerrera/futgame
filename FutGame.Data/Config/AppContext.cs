@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using FutGame.Model;
+﻿using System.Data.Entity;
+using FutGame.Model.Entities;
 
 namespace FutGame.Data.Config
 {
@@ -17,6 +13,7 @@ namespace FutGame.Data.Config
 
         public DbSet<Team> Teams { get; set; }
         public DbSet<Player> Players { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
